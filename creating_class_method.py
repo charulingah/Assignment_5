@@ -5,7 +5,7 @@ User should be able to find the nth power of the x.(i.e x*x*x*x...n times)
 You must implement it using Class
 '''
 
-Solution-->
+#Solution-->
 
 
 class nth_pow:
@@ -42,21 +42,24 @@ class nth_pow:
 
        return val*val*x
 
-#user input or you can add the user input by commenting it in
+#user input 
+
 x=int(input("Enter base value: "))
 n=int(input("Enter power value: "))
 
 #way to call via user input
+
 output = nth_pow().pow(x, n)
 print("sample Input:\nx:",x,"\nn:",n,"\nSample Output:",output)
 
-#without taking user input the method can be called this way --> nth_pow().pow(10,2)
 
 
+'''
 sample Input:
 x: 10 
 n: 2 
 Sample Output: 100
+'''
 
 
 
